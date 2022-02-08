@@ -4,6 +4,8 @@
   border-radius: 0 0 var(--radius) var(--radius);
   text-transform: uppercase;
   user-select: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
 }
 
 .natural {
@@ -29,7 +31,8 @@
 
 .natural:active,
 .natural.is-pressed {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
 }
 
 .sharp:active,
@@ -37,10 +40,11 @@
 .flat:active,
 .flat.is-pressed {
   background-color: #555;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
 }
 
 .key:disabled {
-  background-color: none;
+  background-color: rgba(255, 255, 255, 0.1);
   cursor: wait;
 }
 

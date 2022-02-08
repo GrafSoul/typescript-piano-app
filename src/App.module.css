@@ -1,5 +1,6 @@
 .app {
   min-height: 100vh;
+  background-color: rgb(68, 23, 1);
 }
 
 .content {
