@@ -19,6 +19,7 @@ interface Adapted {
 
 export function useSoundfont({ AudioContext }: Settings): Adapted {
   let activeNodes: AudioNodesRegistry = {};
+
   const [current, setCurrent] = useState<Optional<InstrumentName>>(null);
   const [loading, setLoading] = useState<boolean>(false);
   const [player, setPlayer] = useState<Optional<Player>>(null);
